@@ -1,7 +1,7 @@
 # product_review(core PHP project) (Under Development...)
 
 **Project  Description:**
-project product review is a  Demonstration website for reviewing various product & services .Where End user can share their feedback about any particular product. This project structure  are based on MVC(model-view-controller pattern). 
+project product review is a  Demonstration website for reviewing various product & services .Where End user can share their feedback about any particular product. This project structure  are based on MVC Pattern (model-view-controller). 
 
 **main Features Of This Project :**
 
@@ -33,25 +33,39 @@ project product review is a  Demonstration website for reviewing various product
 **login Page**
 
 
-![Login page preview](/Oop_Contact_Store/images/login_page.png)
+![Login page preview](/images/login_page.png)
 
 
-**Registration Page**
+**Registration Page for Normal User**
 
 
-![registration page preview](/Oop_Contact_Store/images/registration_page.png)
+![registration page preview](/images/user_registration.png)
+
+
+**Registration Page for page owner**
+
+
+![registration page preview](/images/page_registration.png)
 
 **Home Page**
 
 
-![home page preview](/Oop_Contact_Store/images/homepage.png)
-
-**New Contact Modal**
-
-![Add new contact](/Oop_Contact_Store/images/new_contact.png)
+![home page preview](/images/index_page.png)
 
 
-**Delete Contact Modal**
+**setting Page for password reset**
 
-![Delete contact](/Oop_Contact_Store/images/delete_contact.png)
 
+![settings preview](/images/setting_pass.png)
+
+
+**setting Page for information update**
+
+
+![settings page preview](/images/setting_info.png)
+
+
+**User Profile Page**
+
+
+![user profile preview](/images/user_profile.png)
