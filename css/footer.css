@@ -7,11 +7,13 @@ body {
   padding-bottom: 430px;
   min-height: 100vh;
 }
+/*to make the footer work we need to shift this body section to main page body section*/
+
 .site-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #1a1e25;
+  background-color: #0f1626;
   padding: 35px 0 20px;
   font-size: 15px;
   line-height: 24px;
@@ -98,6 +100,7 @@ body {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  margin-left: 10px;
 }
 .social-icons li {
   display: inline-block;
