@@ -1,0 +1,20 @@
+.sidebar {
+  position: fixed;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-right: 1px solid #eee;
+  width: 250px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.side_navbar ul nav-link {
+  margin-right: 0px !important;
+}

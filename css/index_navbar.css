@@ -1,0 +1,35 @@
+.navbar {
+  background: #0f1626 !important;
+}
+
+.dropdown-menu {
+  background: #0f1626 !important;
+}
+
+.dropdown-item {
+  color: white !important;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-weight: 250;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item:hover {
+  background: rgba(42, 58, 95, 0.5);
+}
+
+.nav-link {
+  color: white !important;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-right: 20px;
+  font-weight: 300;
+}
+
+.nav-link:hover {
+  background: rgba(42, 58, 95, 0.5);
+}
+/*# sourceMappingURL=index_navbar.css.map */

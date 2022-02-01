@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #1a202c;
+  text-align: left;
+  background-color: #e2e8f0;
+}
+
+/*********************** profile header section ****************** */
+.user_profile_div {
+  margin-top: 10px;
+}
+.profile_img {
+  padding: 10px 15px 10px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.profile_details {
+  flex: 1 1 400px;
+}
+.profile_img img {
+  padding: 20px;
+}
+.main-body {
+  padding: 15px;
+}
+.card {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.card {
+  position: relative;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  min-height: 1px;
+  padding: 1rem;
+}
+
+.mb-3,
+.my-3 {
+  margin-bottom: 1rem !important;
+}
+
+.bg-gray-300 {
+  background-color: #e2e8f0;
+}
+.h-100 {
+  height: 100% !important;
+}
+.shadow-none {
+  box-shadow: none !important;
+}
+
+/******************** user info Section **************************/
+
+.ui-w-80 {
+  width: 80px !important;
+  height: auto;
+}
+
+.btn-default {
+  border-color: rgba(24, 28, 33, 0.1);
+  background: rgba(0, 0, 0, 0);
+  color: #4e5155;
+}
+
+label.btn {
+  margin-bottom: 0;
+}
+
+.btn-outline-primary {
+  border-color: #26b4ff;
+  background: transparent;
+  color: #26b4ff;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.text-light {
+  color: #babbbc !important;
+}
+
+.btn-facebook {
+  border-color: rgba(0, 0, 0, 0);
+  background: #3b5998;
+  color: #fff;
+}
+
+.btn-instagram {
+  border-color: rgba(0, 0, 0, 0);
+  background: #000;
+  color: #fff;
+}
+
+.row-bordered {
+  overflow: hidden;
+}
+
+.account-settings-fileinput {
+  position: absolute;
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+.information_tab a:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.information_tab a.active {
+  background-color: rgb(246, 252, 251);
+}
+.account-settings-links .list-group-item.active {
+  font-weight: bold !important;
+  font-size: 1.1rem;
+  color: rgb(3, 6, 17) !important;
+}
+
+.account-settings-multiselect ~ .select2-container {
+  width: 100% !important;
+}
+.light-style .account-settings-links .list-group-item {
+  padding: 0.85rem 1.5rem;
+  border-color: rgba(24, 28, 33, 0.03) !important;
+}
+.light-style .account-settings-links .list-group-item.active {
+  color: #4e5155 !important;
+}
+.material-style .account-settings-links .list-group-item {
+  padding: 0.85rem 1.5rem;
+  border-color: rgba(24, 28, 33, 0.03) !important;
+}
+.material-style .account-settings-links .list-group-item.active {
+  color: #4e5155 !important;
+}
+.dark-style .account-settings-links .list-group-item {
+  padding: 0.85rem 1.5rem;
+  border-color: rgba(255, 255, 255, 0.03) !important;
+}
+.dark-style .account-settings-links .list-group-item.active {
+  color: #fff !important;
+}
+.light-style .account-settings-links .list-group-item.active {
+  color: #4e5155 !important;
+}
+.light-style .account-settings-links .list-group-item {
+  padding: 0.85rem 1.5rem;
+  border-color: rgba(24, 28, 33, 0.03) !important;
+}

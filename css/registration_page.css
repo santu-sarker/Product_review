@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9ebf1;
+}
+
+.main_div input {
+  border: 1px solid grey;
+}
+
+.register_head,
+h1 {
+  border: 1px solid black;
+}
+
+input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.gender-check-label,
+.form-check-label {
+  cursor: pointer !important;
+}
+
+.gender_pad {
+  padding-left: 0px;
+}
+/*# sourceMappingURL=registration_page.css.map */

@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9ebf1;
+}
+
+.main_div input {
+  border: 1px solid grey;
+}
+
+.login_head,
+h1 {
+  border: 1px solid black;
+}
+
+input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+}
+/*# sourceMappingURL=user_registration.css.map */
+/* No CSS */ /*# sourceMappingURL=login_page.css.map */
